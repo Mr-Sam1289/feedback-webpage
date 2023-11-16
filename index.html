@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diagnostic Center</title>
+    <link rel="icon" type="image/x-icon" href="Images/icon.ico" style="width: 100%;">
+    <style>
+        td{
+            text-align: center;
+            font-size: 20px;
+        }
+    </style>
+    <script src="/script.js"></script>
+    
+</head>
+<body style="background-color:rgb(193, 209, 204);margin-top:20px;margin:40px;margin-bottom:200px">
+
+    <img src="Images/diagnostic1.png" alt="Diagnostic center image" style="float: left;width:200px">
+    <div> <!--Headings-->
+        <!-- <center> -->
+            <h1 style="color:rgb(46, 6, 247);margin-left:300px">XYZ Diagnostic Center</h1>
+            <p style="margin-left:250px"><b>#1-2-345/67, Street No. 890, Random Nagar, Hyderabad - 500001</b></p>
+            <h2 style="color:rgb(49, 49, 173);margin-left:300px">Customer Feedback Form</h2>
+        <!-- </center> -->
+    </div>
+    
+
+    <!--Basic info-->
+    <hr>
+    <div style="display: flex; justify-content:space-between">
+    <p style="font-size:large;text-align:left;"><b>Branch : </b>Kachwani Singaram </p>
+    <p style="text-align:right;font-size:large"><b>Form No : </b><input type="text" placeholder="Form No" size="10"></p>
+</div>
+    <p style="font-size:large;text-align:right"><b>Date : </b><input type="date" size="100"></p>
+
+    
+<div> <!--Reception block-->
+    <table style="width: 100%">
+        <thead style="background-color:rgb(12, 231, 45);padding:5px">
+            <tr>
+                <th >A    </th>
+                <th >OFFICE RECEPTION</th>
+                <th >EXCELLENT</th>
+                <th >GOOD</th>
+                <th >AVG</th>
+                <th >POOR</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1.</td>
+                <td style="text-align: left">Receptionist attended to you promptly and provided right information</td>
+
+                <td><input type="radio" name="service" value="Excellent" ></td>
+                <td><input type="radio" name="service" value="Good"></td>
+                <td><input type="radio" name="service" value="Avg"></td>
+                <td><input type="radio" name="service" value="Poor"></td>
+            </tr>
+            <tr>
+                <td>2.</td>
+                <td style="text-align: left">Waiting time at the desk for registration</td>
+                <td><input type="radio" name="recommend" value="Excellent"></td>
+                <td><input type="radio" name="recommend" value="Good"></td>
+                <td><input type="radio" name="recommend" value="Avg"></td>
+                <td><input type="radio" name="recommend" value="Poor"></td>
+            </tr>
+            <tr>
+                <td>3.</td>
+                <td style="text-align: left">Counselling provided for pre-invesigation preparation if required</td>
+                <td><input type="radio" name="counselling" value="Excellent"></td>
+                <td><input type="radio" name="counselling" value="Good"></td>
+                <td><input type="radio" name="counselling" value="Avg"></td>
+                <td><input type="radio" name="counselling" value="Poor"></td>
+            </tr>
+            <tr>
+                <td>4.</td>
+                <td style="text-align: left">Queries on credit payment, reimbursements/claims were answered satisfactorily</td>
+                <td><input type="radio" name="queries" value="Excellent"></td>
+                <td><input type="radio" name="queries" value="Good"></td>
+                <td><input type="radio" name="queries" value="Avg"></td>
+                <td><input type="radio" name="queries" value="Poor"></td>
+            </tr>
+            <tr>
+                <td>5.</td>
+                <td style="text-align: left">You were directed to various department correctly</td>
+                <td><input type="radio" name="direct" value="Excellent"></td>
+                <td><input type="radio" name="direct" value="Good"></td>
+                <td><input type="radio" name="direct" value="Avg"></td>
+                <td><input type="radio" name="direct" value="Poor"></td>
+            </tr>
+            <tr>
+                <td>6.</td>
+                <td style="text-align: left">Were you told the time to collect the reports </td>
+                <td><input type="radio" name="reports" value="Excellent"></td>
+                <td><input type="radio" name="reports" value="Good"></td>
+                <td><input type="radio" name="reports" value="Avg"></td>
+                <td><input type="radio" name="reports" value="Poor"></td>
+            </tr>
+        </tbody>
+
+
+<!--Diagnostic Service block-->
+
+        <thead style="background-color:rgb(12, 231, 45);padding:5px">
+            <tr>
+                <th >B</th>
+                <th >DIAGNOSTIC SERVICES</th>
+                <th >EXCELLENT</th>
+                <th >GOOD</th>
+                <th >AVG</th>
+                <th >POOR</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1.</td>
+                <td style="text-align: left">Waiting time for lab tests / Radiology tests</td>
+                <td><input type="radio" name="test" value="Excellent"></td>
+                <td><input type="radio" name="test" value="Good"></td>
+                <td><input type="radio" name="test" value="Avg"></td>
+                <td><input type="radio" name="test" value="Poor"></td>
+            </tr>
+            <tr>
+                <td>2.</td>
+                <td style="text-align: left">Advice about the test conducted</td>
+                <td><input type="radio" name="advice" value="Excellent"></td>
+                <td><input type="radio" name="advice" value="Good"></td>
+                <td><input type="radio" name="advice" value="Avg"></td>
+                <td><input type="radio" name="advice" value="Poor"></td>
+            </tr>
+            <tr>
+                <td>3.</td>
+                <td style="text-align: left">Comfort during procedure</td>
+                <td><input type="radio" name="comfort" value="Excellent"></td>
+                <td><input type="radio" name="comfort" value="Good"></td>
+                <td><input type="radio" name="comfort" value="Avg"></td>
+                <td><input type="radio" name="comfort" value="Poor"></td>
+            </tr>
+        </tbody>
+
+<!--Sample collections block-->
+
+        <thead style="background-color:rgb(12, 231, 45);padding:5px">
+            <tr>
+                <th >C</th>
+                <th >SAMPLE COLLECTION</th>
+                <th >EXCELLENT</th>
+                <th >GOOD</th>
+                <th >AVG</th>
+                <th >POOR</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1.</td>
+                <td style="text-align: left">Waiting time for giving sample</td>
+                <td><input type="radio" name="wait" value="Excellent"></td>
+                <td><input type="radio" name="wait" value="Good"></td>
+                <td><input type="radio" name="wait" value="Avg"></td>
+                <td><input type="radio" name="wait" value="Poor"></td>
+            </tr>
+            <tr>
+                <td>2.</td>
+                <td style="text-align: left">Hospitality by staff at Sample collection area</td>
+                <td><input type="radio" name="sample" value="Excellent"></td>
+                <td><input type="radio" name="sample" value="Good"></td>
+                <td><input type="radio" name="sample" value="Avg"></td>
+                <td><input type="radio" name="sample" value="Poor"></td>
+            </tr>
+            <tr>
+                <td>3.</td>
+                <td style="text-align: left">Were you made comfortable during the sample collection </td>
+                <td><input type="radio" name="collec" value="Excellent"></td>
+                <td><input type="radio" name="collec" value="Good"></td>
+                <td><input type="radio" name="collec" value="Avg"></td>
+                <td><input type="radio" name="collec" value="Poor"></td>
+            </tr>
+        </tbody>
+
+<!--Other Facilities block-->
+        <thead style="background-color:rgb(12, 231, 45);padding:5px">
+            <tr>
+                <th >D</th>
+                <th >OTHER FACILITIES</th>
+                <th >EXCELLENT</th>
+                <th >GOOD</th>
+                <th >AVG</th>
+                <th >POOR</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1.</td>
+                <td style="text-align: left">House Keeping (Cleanliness of investigation rooms, sample collection and toilets) </td>
+                <td><input type="radio" name="house" value="Excellent"></td>
+                <td><input type="radio" name="house" value="Good"></td>
+                <td><input type="radio" name="house" value="Avg"></td>
+                <td><input type="radio" name="house" value="Poor"></td>
+            </tr>
+            <tr>
+                <td>2.</td>
+                <td style="text-align: left">Waiting area</td>
+                <td><input type="radio" name="area" value="Excellent"></td>
+                <td><input type="radio" name="area" value="Good"></td>
+                <td><input type="radio" name="area" value="Avg"></td>
+                <td><input type="radio" name="area" value="Poor"></td>
+            </tr>
+            <tr>
+                <td>3.</td>
+                <td style="text-align: left">Canteen services</td>
+                <td><input type="radio" name="canteen" value="Excellent"></td>
+                <td><input type="radio" name="canteen" value="Good"></td>
+                <td><input type="radio" name="canteen" value="Avg"></td>
+                <td><input type="radio" name="canteen" value="Poor"></td>
+            </tr>
+        </tbody>
+
+<!--Overall experience block-->
+
+        <thead style="background-color:rgb(12, 231, 45);padding:5px">
+            <tr >
+                <th >E</th>
+                <th >OVERALL EXPERIENCE</th>
+                <th >EXCELLENT</th>
+                <th >GOOD</th>
+                <th >AVG</th>
+                <th >POOR</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1.</td>
+                <td style="text-align: left">Overall service received at XYZ Diagonistic Centre</td>
+                <td><input type="radio" name="xyz" value="Excellent"></td>
+                <td><input type="radio" name="xyz" value="Good"></td>
+                <td><input type="radio" name="xyz" value="Avg"></td>
+                <td><input type="radio" name="xyz" value="Poor"></td>
+            </tr>
+            <tr>
+                <td>2.</td>
+                <td style="text-align: left">Would you recommend a friend/relative to XYZ Diagonistic Centre</td>
+                <td><input type="radio" name="frnd" value="Excellent"></td>
+                <td><input type="radio" name="frnd" value="Good"></td>
+                <td><input type="radio" name="frnd" value="Avg"></td>
+                <td><input type="radio" name="frnd" value="Poor"></td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+    <div> <!--Feedback block-->
+    <p style="background-color:rgb(12, 231, 45);padding:5px"><b>HOW CAN XYZ DIAGNOSTIC CENTER SERVE YOU BETTER</b></p>
+    <center><textarea name="Feedback" placeholder="Write something here....." rows="7" cols="50" style="background-color:rgb(224, 230, 196);"></textarea></center>
+    </div>
+
+    <div> <!--Referal block--> 
+        <p style="background-color:rgb(12, 231, 45);padding:5px"><b>HOW DID YOU COME TO KNOW ABOUT XYZ DIAGNOSTIC CENTER</b></p>
+        <center>
+            <form>
+                <table style="width:60%;">
+                    <tr>
+                        <td>   </td>
+                        <td><input type="radio" name="referal" value="Referred by doctor" >Referred by doctor</td>
+                        <td><input type="radio" name="referal" value="Friends" >Friends</td>
+                        <td><input type="radio" name="referal" value="Relatives" >Relatives</td>
+                        <td><input type="radio" name="referal" value="Others" >Others</td>
+                        <td>   </td>
+                    </tr>
+                </table>
+            </form>
+        </center>
+    </div>
+
+    <div> <!--Personal info-->
+        <p style="background-color:rgb(12, 231, 45);padding:5px"><b>PERSONAL INFORMATION</b></p>
+    <form>
+        <p><pre><b>NAME    : </b><input type="text" placeholder="Name" required></pre></p>
+        <p><pre><b>ADDRESS : </b><input type="text" placeholder="Address" required></pre></p>
+        <p><pre><b>NUMBER  : </b><input type="number" placeholder="Number" required></pre></p>
+        <p><pre><b>EMAIL   : </b><input type="email" placeholder="Email" required></pre></p>
+        <button type="submit" style="background-color:rgba(12, 183, 12, 0.616);padding:5px;float:right;margin-right:10px" id="101">SUBMIT</button>
+        <button type="reset" style="background-color:rgb(215, 77, 77);padding:5px;float:right;margin-right:100px" id="102">CANCEL</button>
+        
+    </form>
+
+    </div>
+
+</body>
+</html>
